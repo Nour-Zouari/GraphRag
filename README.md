@@ -113,3 +113,6 @@ En pratique :
 Nom du médicament → affichage lisible pour l’utilisateur ou pour recherche
 Code CIS → clé unique pour le nœud dans Neo4j, pour relier correctement les interactions et éviter les doublons
 Relations (INTERAGIT_AVEC) → entre nœuds identifiés par Code_CIS
+
+
+On a essayé avec fuzzy pour plus de correspondances mais ca demande bq de ressources (les fichiers fuzzy existent ici)

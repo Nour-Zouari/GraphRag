@@ -75,7 +75,7 @@ if __name__ == "__main__":
             interactions = extract_interactions(row.get("interactions_text", ""), bdpm_dict)
             cleaned_records.append((cis_code, interactions))
 
-    output_path = "data/raw/clean_openfda_bdpm.csv"
+    output_path = "data/processed/clean_openfda_bdpm.csv"
     with open(output_path, "w", newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(["drug_code", "interactions"])
